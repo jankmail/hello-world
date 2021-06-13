@@ -1,5 +1,7 @@
 R Markup md wäre hier besser, oder
 
+Immer wieder git add . eingebe. Erst dann commit iim Fenster-rechts-oben
+
 help() or help(package = „ggplot2“)
 ---- Unload / remove
 detach („package:ggplot2“, unload=TRUE)
