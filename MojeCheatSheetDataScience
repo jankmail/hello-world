@@ -1,3 +1,5 @@
+R Markup md wäre hier besser, oder
+
 help() or help(package = „ggplot2“)
 ---- Unload / remove
 detach („package:ggplot2“, unload=TRUE)
