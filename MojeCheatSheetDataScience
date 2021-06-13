@@ -1,0 +1,78 @@
+help() or help(package = „ggplot2“)
+---- Unload / remove
+detach („package:ggplot2“, unload=TRUE)
+Remove.package(„ggplot2“)
+
+---- which version of R:
+Version
+sessionInfo(): Infos with all packages
+
+----Which funtions in a package
+help(package = „ggplt2“)
+browseVignettes(„ggplot2“) – more Infos about the functions in a package
+
+----Projects
+Easy organization+sharing+startback
+All variables and presentations
+
+
+------Versioncontrol
+Commit
+Push updates o repository
+Pull the repository to my local computer. Am I uptodate with the current repo
+Stage one file and commit it at the same moment. Then the next file
+My brench is not known to the repo
+Merging: pushing my new file tot he main
+
+Each commit should have just one issue, and purpose fort he change
+
+
+--GitHub
+git config --global user.name "jankmail"
+git config --global user.email jank.mail@t-online.de
+git config –-list (oder –l)
+
+
+Tools-> General -> GIt SHA Key
+	GitHub Settings SHA Key
+
+New Files: EnviromentQuadrant-Git  Commit
+   (New windows with Difference to previous versions)
+In the upper right Quadrant: fort he commit-message
+	Commit (immer noch lokal)
+	Push to the repository 
+
+
+
+Generating public/private rsa key pair.
+Your identification has been saved in C:/Users/Medienberater/.ssh/id_rsa.
+Your public key has been saved in C:/Users/Medienberater/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:edyzOy4Nk8z4c0NPgVMxUY9TJ3P2wWHWcOcOwkPyWGc medienberater@MB_AKSMZ
+The key's randomart image is:
++---[RSA 3072]----+
+|          . o EX@|
+|           B o+%B|
+|          . =o+ +|
+|         o .oo.+ |
+|        S+o.o. ..|
+|        ..* .o.  |
+|         . =.o   |
+|          + =..  |
+|           =oo   |
++----[SHA256]-----+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC7aO5w0GEL+reUtRyANhmTleFFNeKPaoUNuDoPRVFKEurtsVM5nxKnkLF0QTZZvLjAq2zv7z7dACvoyEuoPAGBVvfbTMTPrmR/9Bm4IU8JLQZtPt7PoaVqNl32I0aDmG3D5XdKZW7Dy8Es6IhD4Mo4d8hcs6i9VxkwDpWTaS+PxPbMx+HORBEacq3TkKMOom+hInD7N//gWmiCJZ9bj4ULX61/0QlRo8r4KCozMnuJNFb5a2gcwNHzszAw+O53V9+eamGH4G3SB3MqOpVYIo5H4FOcr5o67HFjmEWUbdE1vVL8R17YWm5Co2VS3orDaIs71eZ/pHr0UQyUAl4fnnmIcvyIhlPDLIWT80YNrbolrU+fKS0njfDrcvIxzf3nOT8D9fucX7cJw6VpW1bfAXxnkir9Jrxdng9pdy+nuJ1VJM1CkLgF73E0pHeJHuI4Q/onBhmqxnC9RQTpWNqwJz6n27Ru1neROh4CfI4iQBi0JE4ZUVYRbNpV12/Ya6Hgc50= medienberater@MB_AKSMZ
+
+----R Markdown
+*italics*  **bold**  #HeaderBig  ##HeaderMiddle  ```{r file}  code ausführen ```
+- Aufzählung hat zwei Leerzeichen am Ende
+[linkname](http://irgendwtwas.com)
+
+Git Tutorialmit Bitbucket
+https://www.atlassian.com/de/git/tutorials/learn-git-with-bitbucket-cloud
+https://www.dev-insider.de/erste-schritte-mit-git-und-github-a-905364/
+
+
+
+
